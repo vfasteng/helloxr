@@ -8,7 +8,7 @@ var
   auxVec = new THREE.Vector3(),
   hallRef = null;
 
-const NUM_PANOBALLS = 6;
+const NUM_PANOBALLS = 16;
 
 export function enter(ctx) {
   ctx.raycontrol.activateState('panoballs');
